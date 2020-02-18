@@ -10,6 +10,31 @@ body{
 
 #menu {
     background: #c5c5b2;
-    border: 1px solid red;
-    padding: 18px; /* o padding aplica um espaçamento interno */
+        padding: 18px; /* o padding aplica um espaçamento interno */
 }
+
+#conteudo{
+    background: #e8e8d9;
+    padding: 10px;
+}
+a {
+    color: #4b566a;
+    text-decoration: none; /* coloca ou retira o underline*/
+    font-weight: bold;
+    padding: 5px; /*aumenta o espaçamento*/
+}
+
+.centralizar {
+    text-align: center;
+}
+
+h1 {
+    color: #828271;
+    font-size: 1.2em;
+}
+
+
+/*
+ o '#' significa id e o '.' significa classe.
+'em' expande ou diminui automaticamente com o a mudança dos outroos parâmetro em px. 
+*/
